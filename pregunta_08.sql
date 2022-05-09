@@ -41,3 +41,4 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 --
+select SUBSTRING(C23,1,4) as 'year', AVG(C21) from tbl2 GROUP BY SUBSTRING(C23,1,4)

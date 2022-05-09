@@ -38,3 +38,4 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 -- 
+select SUBSTRING(c14,1,4) as 'YEAR', count(k0) AS 'CANT' from tbl1 where SUBSTRING(c14,1,4)='2018'
