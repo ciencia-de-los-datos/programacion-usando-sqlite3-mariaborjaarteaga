@@ -43,3 +43,4 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 -- 
+select * from tbl1 where k0='A' ORDER BY c14 limit 6
