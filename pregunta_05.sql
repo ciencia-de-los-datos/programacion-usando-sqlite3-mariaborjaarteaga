@@ -41,3 +41,4 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 --  
+select * from tbl0 WHERE C02=100 or c02=600
